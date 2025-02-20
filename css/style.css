@@ -411,6 +411,10 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-block {
+  display: flex;
+  align-items: baseline;
+}
 .logo-f {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -427,7 +431,7 @@ button {
 }
 .logocontainer {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
   margin-right: 120px;
 }
 .p-footer {
@@ -440,7 +444,7 @@ button {
 }
 .social-footer {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
   margin-left: 120px;
   padding: 100px 692px 132px 540px;
 }
